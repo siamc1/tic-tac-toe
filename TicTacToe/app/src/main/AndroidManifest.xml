@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SRCStudios.tictactoe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tictactoe"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.SRCStudios.tictactoe.DifficultySelect"></activity>
+        <activity android:name="com.SRCStudios.tictactoe.TieActivity" />
+        <activity android:name="com.SRCStudios.tictactoe.TieActivityP2" />
+        <activity android:name="com.SRCStudios.tictactoe.LoseActivity" />
+        <activity android:name="com.SRCStudios.tictactoe.WinScreenO" />
+        <activity android:name="com.SRCStudios.tictactoe.SelectActivity" />
+        <activity android:name="com.SRCStudios.tictactoe.WinScreenP1" />
+        <activity android:name="com.SRCStudios.tictactoe.P1GameActivity" />
+        <activity android:name="com.SRCStudios.tictactoe.P2GameActivity" />
+        <activity android:name="com.SRCStudios.tictactoe.HelpActivity" />
+        <activity android:name="com.SRCStudios.tictactoe.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.SRCStudios.tictactoe.WinScreenX" />
+    </application>
+
+</manifest>
