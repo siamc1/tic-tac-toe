@@ -231,43 +231,51 @@ public class P2GameActivity extends AppCompatActivity {
 
         if(chrGrid[0][0] == 'O'){
             if(chrGrid[0][1] == 'O' && chrGrid[0][2] == 'O'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenO.class);
                 startActivity(i);
                 this.finish();
             }
             else if(chrGrid[1][0] == 'O' && chrGrid[2][0] == 'O'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenO.class);
                 startActivity(i);
                 this.finish();
             }
             else if(chrGrid[1][1] == 'O' && chrGrid[2][2] == 'O'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenO.class);
                 startActivity(i);
                 this.finish();
             }
         }
         if(chrGrid[0][1] == 'O' && chrGrid[1][1] == 'O' && chrGrid[2][1] == 'O'){
+            isPlaying =false;
             Intent i = new Intent(this, WinScreenO.class);
             startActivity(i);
             this.finish();
         }
         if(chrGrid[0][2] == 'O' && chrGrid[1][2] == 'O' && chrGrid[2][2] == 'O'){
+            isPlaying =false;
             Intent i = new Intent(this, WinScreenO.class);
             startActivity(i);
             this.finish();
         }
         if(chrGrid[1][0] == 'O' && chrGrid[1][1] == 'O' && chrGrid[1][2] == 'O'){
+            isPlaying =false;
             Intent i = new Intent(this, WinScreenO.class);
             startActivity(i);
             this.finish();
         }
         if(chrGrid[2][0] == 'O'){
             if(chrGrid[2][1] == 'O' && chrGrid[2][2] == 'O'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenO.class);
                 startActivity(i);
                 this.finish();
             }
             else if(chrGrid[1][1] == 'O' && chrGrid[0][2] == 'O'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenO.class);
                 startActivity(i);
                 this.finish();
@@ -276,43 +284,51 @@ public class P2GameActivity extends AppCompatActivity {
 
         if(chrGrid[0][0] == 'X'){
             if(chrGrid[0][1] == 'X' && chrGrid[0][2] == 'X'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenX.class);
                 startActivity(i);
                 this.finish();
             }
             else if(chrGrid[1][0] == 'X' && chrGrid[2][0] == 'X'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenX.class);
                 startActivity(i);
                 this.finish();
             }
             else if(chrGrid[1][1] == 'X' && chrGrid[2][2] == 'X'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenX.class);
                 startActivity(i);
                 this.finish();
             }
         }
         if(chrGrid[0][1] == 'X' && chrGrid[1][1] == 'X' && chrGrid[2][1] == 'X'){
+            isPlaying =false;
             Intent i = new Intent(this, WinScreenX.class);
             startActivity(i);
             this.finish();
         }
         if(chrGrid[0][2] == 'X' && chrGrid[1][2] == 'X' && chrGrid[2][2] == 'X'){
+            isPlaying =false;
             Intent i = new Intent(this, WinScreenX.class);
             startActivity(i);
             this.finish();
         }
         if(chrGrid[1][0] == 'X' && chrGrid[1][1] == 'X' && chrGrid[1][2] == 'X'){
+            isPlaying =false;
             Intent i = new Intent(this, WinScreenX.class);
             startActivity(i);
             this.finish();
         }
         if(chrGrid[2][0] == 'X'){
             if(chrGrid[2][1] == 'X' && chrGrid[2][2] == 'X'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenX.class);
                 startActivity(i);
                 this.finish();
             }
             else if(chrGrid[1][1] == 'X' && chrGrid[0][2] == 'X'){
+                isPlaying =false;
                 Intent i = new Intent(this, WinScreenX.class);
                 startActivity(i);
                 this.finish();
